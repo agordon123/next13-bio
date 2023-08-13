@@ -14,7 +14,7 @@ export default function About() {
           >
             <SectionHeader>About me</SectionHeader>
             <p className="mb-3">
-              After going thtough my early adult life without much direction, I
+              After going through my early adult life without a clear direction, having some success but unfulfilled, I
               decided to return to school in my 30&apos;s and get a B.S. in{" "}
               <span className="font-medium font-underline">
                 Computer Programming and Information Systems from SUNY

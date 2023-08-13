@@ -24,11 +24,11 @@ export default function Intro() {
             <Image
               src="/portrait.png"
               alt="picture"
-              width="192"
-              height="192"
+              width="300"
+              height="300"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-228 w-28 rounded-2xl object-cover border-[0.05rem] border-white shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -47,7 +47,7 @@ export default function Intro() {
         </div>
       </div>
       <motion.p
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leadimg-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -84,9 +84,9 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
-        active:scale-105 transition cursor-pointer  border border-black/10"
+        active:scale-105 transition cursor-pointer  border border-black/10" href="https://www.linkedin.com/in/adam-gordon119/"
         >
-          <BsLinkedin />
+          <BsLinkedin  />
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
