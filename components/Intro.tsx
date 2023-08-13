@@ -4,8 +4,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import "../public/portrait.png";
 import Link from "next/link";
-import { BsArrowRight,BsGithub,BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
 import { BsDownload } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
@@ -54,7 +55,7 @@ export default function Intro() {
         <span className="font-bold"> software developer </span>based in the
         <span className="font-bold"> NYC Area. </span>
         My most used technologies are
-        <span className="font-bold underline"> Next.JS 13, Vue or React</span>
+        <span className="font-bold"> NextJS 13, Vue or React</span>
         (with and without Typescript), and the
         <span className="font-bold"> Laravel framework.</span>
       </motion.p>
@@ -66,19 +67,32 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 focus:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 0
+          focus:scale-110 hover:bg-gray-950 active:scale-105 transition group-hover:translate-x-1"
         >
           Contact Me Here
-          <BsArrowRight />
+          <BsArrowRight className="opacity-70" />
         </Link>
-        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full">
-          Download CV <BsDownload />
+
+        <a
+          className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
+        active:scale-105 transition cursor-pointer  border border-black/10 "
+          href="/adamcv.pdf"
+        >
+          Download CV{" "}
+          <BsDownload className="opacity-60 group-hover:trahslate-x-1 transition" />
         </a>
-        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full">
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
+        active:scale-105 transition cursor-pointer  border border-black/10"
+        >
           <BsLinkedin />
         </a>
-        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full">
-          <BsGithub />
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
+        active:scale-105 transition cursor-pointer  border border-black/10"
+        >
+          <FaGithubSquare />
         </a>
       </motion.div>
     </section>
