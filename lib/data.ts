@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
 
 export const links = [
     {
@@ -35,53 +33,47 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "B.S. in Computer Proramming and Information Systems",
+        location:"SUNY Farmingdale, NY",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+            "Graduated in in 2022 with a 3.31 Cumulative GPA, 3.87 in my major. Returned as an adult student" ,
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "2022",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "Lead Front-End Developer, MNC Consulting LLC (Internship)",
+        location: "Brooklyn, NY",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+            "Learning React on my own, working with Google Firebase, built a Real Estate website as both the project manager, and trainer of new interns.",
         icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        date: "2022-2023 (12 months)",
     },
     {
         title: "Full-Stack Developer",
-        location: "Houston, TX",
+        location: "DIAM International, Melville, NY",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+            "Inherited a Nuxt2 w/ Laravel API and MySQL database, and built on the work of my predecessor, adding new features, and fixing bugs.",
         icon: React.createElement(FaReact),
-        date: "2021 - present",
+        date: "July 2022-December 2022",
     },
+    {
+        title: "Freelance Web Developer",
+        location: "Long Island, NY",
+        description:"Creating Projects both for myself and for clients, using React(with TS), Next.js, Laravel/InertiaJS (using Vue3 as a UI) and Tailwind CSS.",
+    }
 ] as const;
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "Car Showcase",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg,
+            "A Next 13 TypeScript Project",
+        tags: ["React", "Next.js", "Tailwind", "Framer-Motion ", "TypeScript"],
+        imageUrl: '/carshowcase.png',
+        siteURL: "https://car-showcase-theta-six.vercel.app/",
+        githubURL: "https://github.com/agordon123/carshowcase2"
     },
-    {
-        title: "rmtDev",
-        description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: rmtdevImg,
-    },
-    {
-        title: "Word Analytics",
-        description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
-    },
+
 ] as const;
 
 export const skillsData = [
@@ -94,14 +86,14 @@ export const skillsData = [
     "Node.js",
     "Git",
     "Tailwind",
-    "Prisma",
+    "PostgreSQL / MYSQL",
     "MongoDB",
-    "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
-    "Python",
-    "Django",
     "Framer Motion",
+    "Laravel",
+    "Inertia.js",
+    "Vue.js",
+    "Nuxt.js",
+    "PHP",
+    "Docker",
+    "Google Firebase",
 ] as const;
