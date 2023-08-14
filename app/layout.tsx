@@ -1,16 +1,17 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
-import SectionDivider from "@/components/SectionDivider";
 import ThemeContextProvider from "@/context/ThemeContext";
 import ActiveSectionContextProvider from "@/context/ActionSectionContext";
 import Footer from "@/components/Footer";
-
+import { Toaster } from "react-hot-toast";
+import ThemeSwitch from "@/components/ThemeSwitch";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Adam Gordon |  Software Developer",
-  description: "Available for hire.",
+  description: "Full Stack Developer, New York City",
+  
 };
 
 export default function RootLayout({
@@ -27,8 +28,11 @@ export default function RootLayout({
         <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
-            <Header /> {children}
+            <Header />
+            {children}
             <Footer />
+            <Toaster position="top-right" />
+            <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>

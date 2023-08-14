@@ -14,8 +14,8 @@ export default function About() {
           >
             <SectionHeader>About me</SectionHeader>
             <p className="mb-3">
-              After going through my early adult life without a clear direction,
-              having some success but unfulfilled, I decided to return to school
+              After going through my early adulthood without a clear career path,
+              having some success but feeling unfulfilled, I decided to return to school
               in my 30&apos;s and get{" "}
               <span className="font-medium">
                 a B.S. in Computer Programming and Information Systems from SUNY
@@ -24,7 +24,7 @@ export default function About() {
               . Since early 2022, I&apos;ve worked in multiple
               <span className="font-medium text-xl">
                 {" "}
-                Full-Stack Web Development
+                Full-Stack Web Development{" "}
               </span>
                roles, as an intern, with an international company, and as a
               freelancer.
@@ -43,17 +43,14 @@ export default function About() {
               either use an API or with IntertiaJS to use it as a monolith. I am
               also familiar with TypeScript and various DBMS tools. I am always
               looking to learn new technologies. I am currently looking for a{" "}
-              <span className="font-bold text-xl">full-time position</span> as a
-              software develope, preferably in the NYC area, but I am open to
+              <span className="font-bold text-xl">Full-Time Position</span> in a field that uses all my talents, preferably in the NYC area. I am open to
               remote work or even relocating if the opportunity is right.
             </p>
 
             <p>
               When I&apos;m not working on my career, I{" "}
-              <span className="bold">enjoy</span> learning about new
-              developments in Neuroscience, Current Events, and some of the more
-              complex questions of our time. Of course as as New Yorker,
-              I&apos;m a big fan of most major sports and play golf when I can.
+              <span className="bold">enjoy</span> learning about Neuroscience, Psychology, and History.  I also try to maintain a
+              work life balance and like to spend time at the gym, because of the increasing importance of maintaining physical and mental health.
             </p>
           </motion.section>
         );

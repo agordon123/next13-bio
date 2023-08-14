@@ -98,5 +98,8 @@ export const skillsData = [
     "Docker",
     "Google Firebase",
     "Android Development w/ Java",
-    "Java 16"
+    "Java 16",
+    ".NET Core",
+    "C#",
+    "Python",
 ] as const;
