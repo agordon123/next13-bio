@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import "../public/portrait.png";
 import Link from "next/link";
-import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { BsDownload } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 
@@ -90,7 +90,7 @@ export default function Intro() {
         </a>
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
-        active:scale-105 transition cursor-pointer  border border-black/10"
+        active:scale-105 transition cursor-pointer  border border-black/10" href="https://github.com/agordon/123"
         >
           <FaGithubSquare />
         </a>

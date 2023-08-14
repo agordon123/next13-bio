@@ -18,7 +18,7 @@ export default function Header() {
             {links.map((link) => (
               <motion.li
                 key={link.hash}
-                className="h-3/4 flex items-center justify-center relative"
+                className="h-[100%] flex items-center justify-center relative"
                 initial={{ y: -100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
               >

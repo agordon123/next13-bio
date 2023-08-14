@@ -14,10 +14,11 @@ export default function About() {
           >
             <SectionHeader>About me</SectionHeader>
             <p className="mb-3">
-              After going through my early adult life without a clear direction, having some success but unfulfilled, I
-              decided to return to school in my 30&apos;s and get a B.S. in{" "}
-              <span className="font-medium font-underline">
-                Computer Programming and Information Systems from SUNY
+              After going through my early adult life without a clear direction,
+              having some success but unfulfilled, I decided to return to school
+              in my 30&apos;s and get{" "}
+              <span className="font-medium">
+                a B.S. in Computer Programming and Information Systems from SUNY
                 Farmingdale, Long Island, NY
               </span>
               . Since early 2022, I&apos;ve worked in multiple
@@ -25,7 +26,7 @@ export default function About() {
                 {" "}
                 Full-Stack Web Development
               </span>
-              . roles, as an intern, with an international company, and as a
+               roles, as an intern, with an international company, and as a
               freelancer.
               <span className="">
                 I enjoy the challenge of learning new things and solving
