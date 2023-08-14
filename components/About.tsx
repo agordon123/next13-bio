@@ -15,32 +15,32 @@ export default function About() {
             <SectionHeader>About me</SectionHeader>
             <p className="mb-3">
               After going through my early adulthood without a clear career path,
-              having some success but feeling unfulfilled, I decided to return to school
+              having some success in sales but feeling unfulfilled, I decided to return to school
               in my 30&apos;s and get{" "}
               <span className="font-medium">
                 a B.S. in Computer Programming and Information Systems from SUNY
-                Farmingdale, Long Island, NY
+                Farmingdale, Long Island, NY ( August 2022 )
               </span>
               . Since early 2022, I&apos;ve worked in multiple
               <span className="font-medium text-xl">
                 {" "}
-                Full-Stack Web Development{" "}
+                Full-Stack Development{" "}
               </span>
                roles, as an intern, with an international company, and as a
-              freelancer.
+              freelancer.{" "}
               <span className="">
                 I enjoy the challenge of learning new things and solving
                 problems, and I like the idea of being able to create something
-                with a team that can make our lives{" "}
+                with a team that can make lives{" "}
                 <span className="font-bold italic">easier.</span>
               </span>{" "}
               My stack of choice is{" "}
               <span className="font-medium text-xl">
                 React, Next.js, Node.js, and Postgres/MYSQL,
               </span>
-              with the{" "}
+              { " "}with the{" "}
               <span className="font-medium text-xl">Laravel framework</span> for
-              either use an API or with IntertiaJS to use it as a monolith. I am
+              either use an API or with InertiaJS. I am
               also familiar with TypeScript and various DBMS tools. I am always
               looking to learn new technologies. I am currently looking for a{" "}
               <span className="font-bold text-xl">Full-Time Position</span> in a field that uses all my talents, preferably in the NYC area. I am open to
