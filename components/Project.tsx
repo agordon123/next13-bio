@@ -4,14 +4,15 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-
+import { FaGithubSquare } from "react-icons/fa";
+//Props come from data.ts list of projects
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
   description,
   tags,
-  imageUrl,
+  imageUrl,githubURL,siteURL
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -68,6 +69,7 @@ export default function Project({
         group-even:right-[initial] group-even:-left-40"
         />
       </section>
+      <a href={githubURL}><FaGithubSquare /></a>
     </motion.div>
   );
 }
