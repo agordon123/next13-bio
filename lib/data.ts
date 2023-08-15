@@ -37,6 +37,7 @@ export const experiencesData = [
         location: "Farmingdale, NY",
         description: "Starting from entry level, I worked my way up to Account Manager, where I was functioning as the last point of contact between our in home customers and our sales representatives who went out for consultations.  I frequently received awards for leading the office in various performance metrics.",
         icon: React.createElement(BsPersonWorkspace),
+        date:"2016-2018"
     },
     {
         title: "B.S. in Computer Proramming and Information Systems",
