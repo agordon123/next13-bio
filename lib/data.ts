@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact,FaVuejs, FaLaravel } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { BsPersonWorkspace } from "react-icons/bs";
 
 
 export const links = [
@@ -31,6 +32,12 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+    {
+        title: "Account Manager, Renewal By Andersen Long Island",
+        location: "Farmingdale, NY",
+        description: "Starting from entry level, I worked my way up to Account Manager, where I was functioning as the last point of contact between our in home customers and our sales representatives who went out for consultations.  I frequently received awards for leading the office in various performance metrics.",
+        icon: React.createElement(BsPersonWorkspace),
+    },
     {
         title: "B.S. in Computer Proramming and Information Systems",
         location:"SUNY Farmingdale, NY",
@@ -103,3 +110,5 @@ export const skillsData = [
     "C#",
     "Python",
 ] as const;
+
+export const SecondarySkillsData = [] as const;
