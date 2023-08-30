@@ -69,7 +69,8 @@ export const experiencesData = [
         description: "Creating Projects both for myself and for clients, using React(with TS), Next.js, Laravel/InertiaJS (using Vue3 as a UI) and Tailwind CSS.",
         icon: React.createElement(FaLaravel),
         date: "December 2022-Present",
-    }
+    },
+
 ] as const;
 
 export const projectsData = [
@@ -81,7 +82,14 @@ export const projectsData = [
         imageUrl: '/carshowcase.png',
         siteURL: "https://car-showcase-theta-six.vercel.app/",
         githubURL: "https://github.com/agordon123/carshowcase2"
-    },
+    },{
+        title:"Threads Clone",
+        description:"A pared down version of the new hit social media site.",
+        tags:["React","Next.js","Tailwind","TypeScript","Shadcn-UI","Clerk JS","Mongo DB"],
+        imageUrl: '/threadsclone.png',
+        siteURL: "https://threadz-eosin.vercel.app/",
+        githubURL:"https://github.com/agordon123/threadz"
+    }
 
 ] as const;
 
