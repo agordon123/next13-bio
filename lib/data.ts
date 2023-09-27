@@ -89,6 +89,14 @@ export const projectsData = [
         imageUrl: '/threadsclone.png',
         siteURL: "https://threadz-eosin.vercel.app/",
         githubURL:"https://github.com/agordon123/threadz"
+    },
+    {
+        title:"Learning Management System",
+        description:"NextJS 13 project, creating a Udemy like page for learning and creating courses ",
+        tags:["Next.JS","Prisma","PlanetScale","Tailwind","App Router","TypeScript","Server Actions","Zod Resolver","shadcn-ui"],
+        imageUrl:"/LearningManagementSystem.png",
+        siteUrl:"https://lms-smokey-project.vercel.app",
+        githubUrl:"https://github.com/agordon123/lms-project.git"
     }
 
 ] as const;
@@ -101,6 +109,10 @@ export const skillsData = [
     "React",
     "Next.js",
     "Node.js",
+    "Prisma",
+    "Redux",
+    "shacn-ui",
+    "AI development tools",
     "Git",
     "Tailwind",
     "PostgreSQL / MYSQL",
