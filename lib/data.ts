@@ -95,7 +95,7 @@ export const projectsData = [
         description:"NextJS 13 project, creating a Udemy like page for learning and creating courses ",
         tags:["Next.JS","Prisma","PlanetScale","Tailwind","App Router","TypeScript","Server Actions","Zod Resolver","shadcn-ui"],
         imageUrl:"/LearningManagementSystem.png",
-        siteUrl:"https://lms-smokey-project.vercel.app",
+        siteURL:"https://lms-smokey-project.vercel.app",
         githubURL:"https://github.com/agordon123/lms-project.git"
     }
 
