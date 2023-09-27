@@ -97,11 +97,7 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
-        active:scale-105 transition cursor-pointer  border border-black/10"
-          href="https://medium.com/@adamg42685"
-        ><BsMedium /></a>
+
       </motion.div>
     </section>
   );

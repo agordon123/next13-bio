@@ -96,7 +96,7 @@ export const projectsData = [
         tags:["Next.JS","Prisma","PlanetScale","Tailwind","App Router","TypeScript","Server Actions","Zod Resolver","shadcn-ui"],
         imageUrl:"/LearningManagementSystem.png",
         siteUrl:"https://lms-smokey-project.vercel.app",
-        githubUrl:"https://github.com/agordon123/lms-project.git"
+        githubURL:"https://github.com/agordon123/lms-project.git"
     }
 
 ] as const;
