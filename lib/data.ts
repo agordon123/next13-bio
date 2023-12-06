@@ -2,25 +2,28 @@ import React from "react";
 import { FaReact, FaVuejs, FaLaravel } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { BsPersonWorkspace } from "react-icons/bs";
-import { m } from "framer-motion";
 
 export const testimonials = [
     {
     name:"Adrian Hajdin",
     description:null,
-    img:"/adrianendorsement.png"
+    img:"/adrianendorsement.png",
+    idx:1
   },
   {
     name: "Moses Cowan - MNC Consulting",
     description:
       "...He trained a multitude of new interns on the framework, and before he left to pursue full employment, made sure that the staff taking over knew what they were doing. He was a great communicator with both the interns and myself. He also learned the ReactJS library and laid the groundwork for many students that followed him. Additionally, Adam also stayed on as a guide to some interns even after his official departure and has demonstrated a capacity to work well with team members, learn new skills on the job, and be a leader in his time working for this firm. He would be a great addition to any team, and I have no doubt he will impress, given the chance to thrive.",
-    img:null
+    img:null,
+    idx:2
     },
   {
     name: "Riva Kantowitz - Founder",
     description:
       "...Adam was able to clearly explain the different options we had in a way that we could understand, and he worked through challenges with our partners, to create this for our organization.  We have not deployed it live yet due to unrelated complications with other partners ,I found Adam as an honest, hardworking individual who would be an asset to any organization.... ",
       img:null
+      ,
+    idx:1
   },
   
 
@@ -61,20 +64,12 @@ export const experiencesData = [
     date:"2023"
   },
   {
-    title: "Account Manager, Renewal By Andersen Long Island",
-    location: "Farmingdale, NY",
+    title: "Freelance Web Developer",
+    location: "Long Island, NY",
     description:
-      "Starting from entry level, I worked my way up to Account Manager, where I was functioning as the last point of contact between our in home customers and our sales representatives who went out for consultations.  I frequently received awards for leading the office in various performance metrics.",
-    icon: React.createElement(BsPersonWorkspace),
-    date: "2016-2018",
-  },
-  {
-    title: "B.S. in Computer Proramming and Information Systems",
-    location: "SUNY Farmingdale, NY",
-    description:
-      "Graduated in in 2022 with a 3.31 Cumulative GPA, 3.87 in my major. Returned as an adult student in 2019.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
+      "Creating Projects both for myself and for clients, using React(with TS), Next.js, Laravel/InertiaJS (using Vue3 as a UI) and Tailwind CSS.",
+    icon: React.createElement(FaLaravel),
+    date: "December 2022-Present",
   },
   {
     title: "Lead Front-End Developer, MNC Consulting LLC (Internship)",
@@ -93,19 +88,31 @@ export const experiencesData = [
     date: "July 2022-December 2022",
   },
   {
-    title: "Freelance Web Developer",
-    location: "Long Island, NY",
+    title: "B.S. in Computer Proramming and Information Systems",
+    location: "SUNY Farmingdale, NY",
     description:
-      "Creating Projects both for myself and for clients, using React(with TS), Next.js, Laravel/InertiaJS (using Vue3 as a UI) and Tailwind CSS.",
-    icon: React.createElement(FaLaravel),
-    date: "December 2022-Present",
+      "Graduated in in 2022 with a 3.31 Cumulative GPA, 3.87 in my major. Returned as an adult student in 2019.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019-2022",
   },
+  {
+    title: "Account Manager, Renewal By Andersen Long Island",
+    location: "Farmingdale, NY",
+    description:
+      "Starting from entry level, I worked my way up to Account Manager, where I was functioning as the last point of contact between our in home customers and our sales representatives who went out for consultations.  I frequently received awards for leading the office in various performance metrics.",
+    icon: React.createElement(BsPersonWorkspace),
+    date: "2016-2018",
+  },
+
+
+
+
 ] as const;
 
 export const projectsData = [
   {
     title:"Dev Overflow - A Stack Overflow Clone enhanced with AI",
-    description:"A NextJS 13 Project, using the OpenAI API to enhance the Stack Overflow experience - Hosted on a VPS with Nginx and PM2",
+    description:"A NextJS 13 Project, using the OpenAI API - Hosted on a VPS with Nginx and PM2",
     tags:["Next.JS","OpenAI","Tailwind","App Router","TypeScript","Server Actions","shadcn-ui","MongoDB","Webhooks","Nginx"],
     imageUrl:"/devoverflow.png",
     siteURL:"https://devoverflow.gordon-webdesign.com",

@@ -78,7 +78,7 @@ export default function Intro() {
         <a
           className="group bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950
         active:scale-105 transition cursor-pointer  border border-black/10 "
-          href="/adamcv.pdf"
+          href="/printableresume.docx"
         >
           Download CV{" "}
           <BsDownload className="opacity-60 group-hover:trahslate-x-1 transition" />
