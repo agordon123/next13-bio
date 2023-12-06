@@ -50,13 +50,16 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-  {
-    name: "Testimonials",
-    hash: "#testimonials",
-  },
 ] as const;
 
 export const experiencesData = [
+  {
+    title:"NextJS 14 Pro Mastery Certified - JavaScript Mastery",
+    location:"Online",
+    description:"Certified in NextJS 14 Pro Mastery by JavaScript Mastery with DevOverflow Project",
+    icon:React.createElement(FaReact),
+    date:"2023"
+  },
   {
     title: "Account Manager, Renewal By Andersen Long Island",
     location: "Farmingdale, NY",
@@ -100,6 +103,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title:"Dev Overflow - A Stack Overflow Clone enhanced with AI",
+    description:"A NextJS 13 Project, using the OpenAI API to enhance the Stack Overflow experience - Hosted on a VPS with Nginx and PM2",
+    tags:["Next.JS","OpenAI","Tailwind","App Router","TypeScript","Server Actions","shadcn-ui","MongoDB","Webhooks","Nginx"],
+    imageUrl:"/devoverflow.png",
+    siteURL:"https://devoverflow.gordon-webdesign.com",
+    githubURL:"https://github.com/agordon123/devoverflow.git"
+  },
   {
     title: "Car Showcase",
     description:
@@ -166,25 +177,18 @@ export const projectsData = [
 
 export const skillsData = [
   "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
+  "TailwindCSS",
+  "Framer Motion",
+  "JavaScript/TypeScript",
+  "React/Vue3.0",
+  "Next.js/Nuxt.js",
   "Node.js",
-  "Prisma",
   "Redux",
-  "shacn-ui",
-  "AI development tools",
   "Git",
-  "Tailwind",
   "PostgreSQL / MYSQL",
   "MongoDB",
-  "Framer Motion",
   "Laravel",
   "Inertia.js",
-  "Vue.js",
-  "Nuxt.js",
   "PHP",
   "Docker",
   "Google Firebase",
@@ -193,6 +197,8 @@ export const skillsData = [
   ".NET Core",
   "C#",
   "Python",
+  "REST API",
+  "VPS Configuration/Linux"
 ] as const;
 
 export const SecondarySkillsData = [] as const;
